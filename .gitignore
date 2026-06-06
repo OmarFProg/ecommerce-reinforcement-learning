@@ -1,0 +1,20 @@
+# Entornos virtuales locales
+venv/
+.venv/
+env/
+
+# Archivos temporales de código y cachés
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+
+# Archivos de compilación de informes locales (LaTeX / Logs)
+*.log
+*.aux
+*.toc
+*.synctex.gz
+
+# Bloquear archivos de salida que el notebook debe generar en vivo en Colab
+datos/*_q_table.csv
+datos/*_historial.csv
